@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0f57d89a-7837-4a18-81de-a47faeb24b14",
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "configurationTags" : [ ],
+  "devName" : "Account_Plan_Objective_Related_List",
+  "id" : "7de9443f-2c02-42ce-b923-8f3e40e6318e",
+  "label" : "Account Plan Objective Related List",
+  "routeType" : "relatedlist-1FA",
+  "type" : "route",
+  "urlPrefix" : "accountplanobjective"
+}

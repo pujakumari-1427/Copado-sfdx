@@ -1,0 +1,59 @@
+{
+  "appPageId" : "4f64a16a-eb7f-4c9c-b56a-5fb19dc79e19",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "80d0c7cc-e86d-4286-a410-49ffe493292b",
+  "label" : "Account Plan Objective",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "c1c94580-a6e4-4a26-84ad-b004eeefc86e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "323ce28b-f228-4798-b54b-24854ec9cf53",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "runtime_sales_accountplan:objectiveBarChartWrapper",
+      "id" : "34b6bd20-7fb6-48b5-a69f-3825f22c4b1d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "runtime_sales_accountplan:strategicTrackerWrapper",
+      "id" : "7c686c9e-4a1b-460c-a3b6-8b5a0c61c00b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f5d440d1-1d5d-4cf2-b58c-319a5d67b98a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "aba3900e-5c61-4a3b-a4b9-20a1370c68a5",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "17c298b8-88c1-4293-9256-f2ffd723aa57",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-1FA"
+}

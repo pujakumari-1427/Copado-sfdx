@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccountPlanObjMeasCalcDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <conditions>
+        <fieldName>Status</fieldName>
+        <operation>Equals</operation>
+        <value>Approved</value>
+    </conditions>
+    <description>Total amount of MDF funds claimed for the Joint Account Plan.</description>
+    <developerName>Partner_MDF_Funds_Claimed</developerName>
+    <masterLabel>Partner MDF Funds Claimed</masterLabel>
+    <rollupType>Sum</rollupType>
+    <status>Active</status>
+    <targetField>Amount</targetField>
+    <targetObject>PartnerFundClaim</targetObject>
+</AccountPlanObjMeasCalcDef>

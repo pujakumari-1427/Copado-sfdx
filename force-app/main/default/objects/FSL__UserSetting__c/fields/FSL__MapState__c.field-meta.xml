@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL__MapState__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether the map was last open or closed</description>
+    <label>Map’s State</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

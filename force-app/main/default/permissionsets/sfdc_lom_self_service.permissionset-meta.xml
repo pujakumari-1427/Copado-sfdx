@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>PermissionSet granting access to the relevant entities for OM Self Service</description>
+    <hasActivationRequired>true</hasActivationRequired>
+    <label>OMSelfServicePermissionSet</label>
+    <license>Cloud Integration User</license>
+</PermissionSet>

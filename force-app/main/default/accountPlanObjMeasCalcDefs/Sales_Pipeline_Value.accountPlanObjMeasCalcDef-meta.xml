@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccountPlanObjMeasCalcDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <conditions>
+        <fieldName>IsClosed</fieldName>
+        <operation>Equals</operation>
+        <value>false</value>
+    </conditions>
+    <conditions>
+        <fieldName>IsWon</fieldName>
+        <operation>Equals</operation>
+        <value>false</value>
+    </conditions>
+    <description>Total value of opportunities related to the Joint Account Plan.</description>
+    <developerName>Sales_Pipeline_Value</developerName>
+    <masterLabel>Sales Pipeline Value</masterLabel>
+    <rollupType>Sum</rollupType>
+    <status>Active</status>
+    <targetField>Amount</targetField>
+    <targetObject>Opportunity</targetObject>
+</AccountPlanObjMeasCalcDef>

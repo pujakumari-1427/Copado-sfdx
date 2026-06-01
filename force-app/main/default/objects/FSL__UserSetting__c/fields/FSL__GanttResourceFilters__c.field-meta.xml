@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL__GanttResourceFilters__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Lists of selected resource types for filtering the resources that show on the Gantt.</description>
+    <label>Gantt Resource Filters</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>
