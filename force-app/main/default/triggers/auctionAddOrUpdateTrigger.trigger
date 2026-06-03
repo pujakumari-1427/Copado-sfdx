@@ -1,6 +1,6 @@
 trigger auctionAddOrUpdateTrigger on SDO_SCOM_Auction__c (after insert, after update, after delete) {
     if (Trigger.isInsert && Trigger.isAfter) {
-        // TODO: Create Schedule job to start and end
+        // TODO: Create Schedule job to start and end Puja test
     } else if (Trigger.isUpdate && Trigger.isAfter) {
         // TODO: Update / Remove schedule if end / start date changes or auction closed
         // Add product to user cart on auction status closed
